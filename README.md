@@ -4,6 +4,8 @@
 
 A Playful & Colorful One-Page website with Parallax effect portfolio starter for [Gatsby](https://www.gatsbyjs.org/) made by [Lennart](https://github.com/LekoArts). You can check out the other Lennart's Gatsby Starters at [Here](https://gatsby-starter-portfolio.netlify.com/)
 
+Live demo: [here](https://agitated-einstein-7e432b.netlify.com/)
+
 ## Features
 - [React Spring](https://github.com/drcmda/react-spring)
 - [TailwindCSS](https://tailwindcss.com/) & [styled-components](https://www.styled-components.com/)
