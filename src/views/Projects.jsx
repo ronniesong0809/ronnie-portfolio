@@ -10,7 +10,7 @@ import SVG from '../components/SVG'
 const Projects = ({ children, offset }) => (
   <>
     <DividerMiddle
-      bg="linear-gradient(to right, #0b7a01 0%, #000000 100%)"
+      bg="linear-gradient(to right, #142716 0%, #a5e1ac 100%)"
       speed={-0.2}
       offset={`${offset}.1`}
       factor={2}

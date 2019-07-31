@@ -33,6 +33,20 @@ const ProjectsWrapper = styled.div`
   }
 `
 
+const ProjectsWrapper2 = styled.div`
+  ${tw`flex flex-wrap justify-between mt-8`};
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(1, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`
+
 const AboutHero = styled.div`
   ${tw`flex flex-col lg:flex-row items-center mt-8`};
 `
@@ -70,10 +84,34 @@ const Index = () => (
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
+        <ProjectCard
+            title="FTP Client"
+            link="https://psu-agile-group.github.io/FTP-Client/"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            A simple FTP client group projects. Built by Java, Apache Commons NetTM, and Travis-CI. Sourcecode at{' '}
+            <a href="https://github.com/psu-agile-group/FTP-Client">
+              <svg width="14" height="14" irole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+          </ProjectCard>
+          <ProjectCard
+            title="Portland Local Tech Event"
+            link="https://ronniesong.tk/portland-local-tech-event/"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            A Portland local tech event Google map built by web-crawler. Crawling from Calagator.org. Sourcecode at{' '}
+            <a href="https://github.com/ronniesong0809/portland-local-tech-event">
+              <svg width="14" height="14" irole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+            </a>
+          </ProjectCard>
           <ProjectCard
             title="Beautiful Portland"
             link="https://gold-team-pdx.github.io/beautiful-portland/"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             A website and CMS for Beautiful Portland non-profit organization. Built by Nodejs, create-react-app,
             Semantic-UI, and Jenkins, then hosting on AWS. Sourcecode at{' '}
@@ -84,21 +122,9 @@ const Index = () => (
             </a>
           </ProjectCard>
           <ProjectCard
-            title="FTP Client"
-            link="https://psu-agile-group.github.io/FTP-Client/"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-          >
-            A simple FTP client group projects. Built by Java, Apache Commons NetTM, and Travis-CI. Sourcecode at{' '}
-            <a href="https://github.com/psu-agile-group/FTP-Client">
-              <svg width="14" height="14" irole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-              </svg>
-            </a>
-          </ProjectCard>
-          <ProjectCard
             title="Happy Chat"
             link="https://psu-oss-group.github.io/ChatAppFaceID/"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A chat client group project built by Nodejs, socket.io, and OpenCV as login authentication. Sourcecode at{' '}
             <a href="https://github.com/psu-oss-group/ChatAppFaceID/">
@@ -110,7 +136,7 @@ const Index = () => (
           <ProjectCard
             title="Firebase Chat"
             link="http://ronniesong.tk/firebase-chat/"
-            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            bg="linear-gradient(to right, #344ceb 0%, #d334eb 100%)"
           >
             A chat client built by firebase, GCP, and use Google+ as login authentication. Sourcecode at{' '}
             <a href="https://github.com/ronniesong0809/firebase-chat">
@@ -122,7 +148,7 @@ const Index = () => (
           <ProjectCard
             title="My Recipe"
             link="http://ronniesong.tk/My-Recipe/"
-            bg="linear-gradient(to right, #417b9f 0%, #a9912c 100%)"
+            bg="linear-gradient(to right, #349ceb 0%, #34eb89 100%)"
           >
             A web-based recipe built by Python3, Flask, Google APIs and Yelp API. Sourcecode at{' '}
             <a href="https://github.com/gold-team-pdx/beautiful-portland">
@@ -132,21 +158,9 @@ const Index = () => (
             </a>
           </ProjectCard>
           <ProjectCard
-            title="Portland Local Tech Event"
-            link="https://ronniesong.tk/portland-local-tech-event/"
-            bg="linear-gradient(to right, #f06f18 0%, #17e14d 100%)"
-          >
-            A Google Map website built by web-crawler. Crawling from Calagator.org. Sourcecode at{' '}
-            <a href="https://github.com/ronniesong0809/portland-local-tech-event">
-              <svg width="14" height="14" irole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-              </svg>
-            </a>
-          </ProjectCard>
-          <ProjectCard
             title="ChocAn"
             link="https://ronniesong.tk/ChocAn"
-            bg="linear-gradient(to right, #472a2a 0%, #961717 100%)"
+            bg="linear-gradient( 91.7deg, #171213 16.8%, #b35670 103.6% )"
           >
             A health care system. Built by .Net, C#, and MySQL Sourcecode at{' '}
             <a href="https://github.com/ronniesong0809/ChocAn">
@@ -158,9 +172,9 @@ const Index = () => (
           <ProjectCard
             title="Npm Demo: Is-Even"
             link="https://ronniesong.tk/npm_demo_is_even"
-            bg="linear-gradient(to right, #ff0000 0%, #f0e2e2 100%)"
+            bg="linear-gradient(to right, #acc906 0%, #e86499 100%)"
           >
-            A npm deme. Built by nodejs, npm, mocha. Sourcecode at{' '}
+            A npm package demo. Built by Nodejs, mocha, Travis-CI, and Coveralls. Sourcecode at{' '}
             <a href="https://github.com/ronniesong0809/npm_demo_is_even">
               <svg width="14" height="14" irole="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
@@ -168,6 +182,14 @@ const Index = () => (
             </a>
           </ProjectCard>
         </ProjectsWrapper>
+        <ProjectsWrapper2>
+          <ProjectCard title="Relevant Coursework" bg="linear-gradient(to right, #103d12 0%, #102d3d 100%)">
+            Agile Development, Open Source Development, Unit Testing, Web Security, AI, Full Stack Development, Software
+            Engineering, Internet and Cloud System, Data Structures, Computational Structures, Discrete Structures,
+            Principles of Programming Languages, Operating Systems, Algorithms, Database Systems. Algorithms-MIT, Web
+            development-Lynda.com
+          </ProjectCard>
+        </ProjectsWrapper2>
       </Projects>
       <About offset={3}>
         <Title>About</Title>

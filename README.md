@@ -1,5 +1,5 @@
 # Gatsby Portfolio
-[![CircleCI Status](https://circleci.com/gh/ronniesong0809/gatsby-starter-portfolio.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/ronniesong0809/gatsby-starter-portfolio)
+[![CircleCI Status](https://circleci.com/gh/ronniesong0809/ronnie-portfolio.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/ronniesong0809/ronnie-portfolio)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/222ab53d-fd6b-4671-86b9-a54dbc6a5af6/deploy-status)](https://app.netlify.com/sites/agitated-einstein-7e432b/deploys)
 
 A Playful & Colorful One-Page website with Parallax effect portfolio starter for [Gatsby](https://www.gatsbyjs.org/) made by [Lennart](https://github.com/LekoArts). You can check out the other Lennart's Gatsby Starters at [Here](https://gatsby-starter-portfolio.netlify.com/)
