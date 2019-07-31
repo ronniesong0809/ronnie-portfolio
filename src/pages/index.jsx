@@ -84,7 +84,7 @@ const Index = () => (
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
-        <ProjectCard
+          <ProjectCard
             title="FTP Client"
             link="https://psu-agile-group.github.io/FTP-Client/"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
