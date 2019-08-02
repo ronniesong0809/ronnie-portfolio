@@ -22,12 +22,23 @@ Live demo: [here](https://agitated-einstein-7e432b.netlify.com/)
 
 ## Install
 ```
-gatsby new project-name https://github.com/ronniesong0809/ronniesong-portfolio
-cd project-name
-npm run dev
+$ npm install -g gatsby-cli
+$ gatsby new project-name https://github.com/ronniesong0809/ronniesong-portfolio
+$ cd project-name
 ```
 
-### Build
+## Run
 ```shell
-npm run build
+$ yarn run dev
+or
+$ npm run dev
+or
+$ gatsby develop
 ```
+
+## Build
+Go to [Netlify](https://app.netlify.com/), Link to your Github repository, and configure your settings. Then click the **Deploy site** button.
+
+More details:
+- [A Step-by-Step Guide | Netlify](https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/)
+- [Hosting on Netlify | GatsbyJS](https://www.gatsbyjs.org/docs/hosting-on-netlify/)

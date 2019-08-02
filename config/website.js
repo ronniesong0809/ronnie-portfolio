@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: '@ronnie_song', // Twitter Username
   ogSiteName: 'Ronnie Song', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-5',
+  googleAnalyticsID: 'UA-145019695-2',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
