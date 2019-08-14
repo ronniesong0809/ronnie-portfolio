@@ -40,5 +40,5 @@ $ gatsby develop
 Go to [Netlify](https://app.netlify.com/), Link to your Github repository, and configure your settings. Then click the **Deploy site** button.
 
 More details:
-- [A Step-by-Step Guide | Netlify](https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/)
-- [Hosting on Netlify | GatsbyJS](https://www.gatsbyjs.org/docs/hosting-on-netlify/)
+* [A Step-by-Step Guide | Netlify](https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/)
+* [Hosting on Netlify | GatsbyJS](https://www.gatsbyjs.org/docs/hosting-on-netlify/)
