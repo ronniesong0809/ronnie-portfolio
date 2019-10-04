@@ -271,7 +271,7 @@ const Index = () => (
               <a href="https://www.instagram.com/ronnie_song89/">Instagram</a>
             </p>
             <p>
-              {'    '}Download my <a herf="https://drive.google.com/file/d/13koi8rHR5DxCiutMMBBelfMFRne23VXl/view">Résumé</a>
+              {'    '}Download my <a href="https://drive.google.com/file/d/13koi8rHR5DxCiutMMBBelfMFRne23VXl/view">Résumé</a>
             </p>
           </ContactText>
         </Inner>
