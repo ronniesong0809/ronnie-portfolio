@@ -267,7 +267,8 @@ const Index = () => (
             <p>
               Say <a href="https://fir-lab-ronsong-8377c.firebaseapp.com/">Hi</a>, send me an{' '}
               <a href="mailto:ronniesong0809@gmail.com">email</a>, or find me on:{' '}
-              <a href="https://www.linkedin.com">Linkedin</a> &{' '}
+              <a href="https://github.com/ronniesong0809">Github</a> |{' '}
+              <a href="https://www.linkedin.com">Linkedin</a> |{' '}
               <a href="https://www.instagram.com/ronnie_song89/">Instagram</a>
             </p>
             <p>
