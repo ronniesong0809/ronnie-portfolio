@@ -47,6 +47,9 @@ jobs:
     - <<: *install_node_modules
     - <<: *save_cache
     - run:
+        name: Run ESLint fix
+        command: yarn lint:fix
+    - run:
         name: Run ESLint
         command: yarn lint:ci
     - <<: *store_results
