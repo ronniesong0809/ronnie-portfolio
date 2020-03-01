@@ -42,7 +42,7 @@
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^6.10.0",
