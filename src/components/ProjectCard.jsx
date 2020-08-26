@@ -3,6 +3,10 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
 
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faFileCode} from '@fortawesome/free-solid-svg-icons'
+
 const Wrapper = styled.a`
   width: 100%;
   ${tw`shadow-lg relative no-underline rounded-lg px-8 py-8 md:py-24 text-white`};
@@ -25,7 +29,7 @@ const Title = styled.div`
 
 const ProjectCard = ({ title, link, children, bg }) => (
   <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg={bg}>
-    <Text>{children}</Text>
+    <Text>{children} <FontAwesomeIcon icon={faGithub}/> <FontAwesomeIcon icon={faFileCode}/></Text>
     <Title>{title}</Title>
   </Wrapper>
 )
