@@ -37,7 +37,7 @@ const Projects = ({ children, offset }) => (
       <SVG icon="zero" width={6} fill={colors['grey-darkest']} left="10%" top="10%" />
       <SVG icon="zero" width={12} fill={colors['grey-darkest']} left="16%" top="60%" />
       <SVG icon="zero" width={16} stroke={colors['grey-darkest']} left="75%" top="30%" />
-      <SVG icon="one" width={12} fill={colors} left="29%" top="26%" />
+      <SVG icon="one" width={12} fill={colors.green} left="29%" top="26%" />
       <SVG icon="one" width={8} stroke={colors['grey-darkest']} left="90%" top="90%" />
     </Divider>
   </>

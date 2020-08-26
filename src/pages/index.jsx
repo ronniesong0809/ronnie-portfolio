@@ -154,11 +154,19 @@ const Index = () => (
         </ProjectsWrapper>
 
         <Coursework>
-          <ProjectCard title="Relevant Coursework" bg="linear-gradient(to right, #103d12 0%, #102d3d 100%)">
-            Agile Development, Open Source Development, Unit Testing, Web Security, AI, Full Stack Development, Software
-            Engineering, Internet and Cloud System, Data Structures, Computational Structures, Discrete Structures,
-            Principles of Programming Languages, Operating Systems, Algorithms, Database Systems. Algorithms-MIT, Web
-            development-Lynda.com
+          <ProjectCard 
+            title="Relevant Coursework" 
+            bg="linear-gradient(to right, #103d12 0%, #102d3d 100%)" 
+            link="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view"
+          >
+            <b>SDE</b> <br/>
+            Software Engineering, Software Implementation and Test, Unit Testing, Agile Development, Advanced Java Development, Open Source Development <br/><br/>
+            
+            <b>WDE</b> <br/>
+            Internet and Cloud System, Full Stack Development, Front-end Web Tech, Web and Cloud Security, Web development-Lynda.com<br/><br/>
+            
+            <b>Other</b> <br/>
+            Computer Vision, Machine Learning, Artificial Intelligence, Malware Reverse Engineering, Blockchain Security, Algorithms-MIT
           </ProjectCard>
         </Coursework>
       </Projects>
@@ -183,16 +191,12 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            <p>
-              Say <a href="https://fir-lab-ronsong-8377c.firebaseapp.com/">Hi</a>, send me an{' '}
-              <a href="mailto:ronniesong0809@gmail.com">email</a>, or find me on:{' '}
-              <a href="https://github.com/ronniesong0809">Github</a> |{' '}
-              <a href="https://www.linkedin.com">LinkedIn</a> |{' '}
-              <a href="https://www.instagram.com/ronnie_song89/">Instagram</a>
-            </p>
-            <p>
-              {'    '}Download my <a href="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view">Résumé</a>
-            </p>
+            Say <a href="https://fir-lab-ronsong-8377c.firebaseapp.com/">Hi</a>, send me an{' '}
+            <a href="mailto:ronniesong0809@gmail.com">email</a>, or find me on:{' '}
+            <a href="https://github.com/ronniesong0809">Github</a> |{' '}
+            <a href="https://www.linkedin.com">LinkedIn</a> |{' '}
+            <a href="https://www.instagram.com/ronnie_song89/">Instagram</a>
+            Download my <a href="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view">Résumé</a>
           </ContactText>
         </Inner>
         <Footer>&copy; 2019 by Ronnie Song. Made by Gatsby.</Footer>
