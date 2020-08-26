@@ -47,18 +47,18 @@ const Contact = ({ children, offset }) => (
     </Content>
     <Divider speed={0.1} offset={offset}>
       <UpDown>
-        <SVG icon="hexa" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
-        <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
+        <SVG icon="zero" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
+        <SVG icon="one" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
       </UpDown>
       <UpDownWide>
-        <SVG icon="hexa" width={12} stroke={colors.green} left="95%" top="50%" />
-        <SVG icon="hexa" width={6} fill={colors.green} left="85%" top="15%" />
-        <SVG icon="hexa" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
+        <SVG icon="zero" width={12} stroke={colors.green} left="95%" top="50%" />
+        <SVG icon="one" width={6} fill={colors.green} left="85%" top="15%" />
+        <SVG icon="zero" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
-      <SVG icon="hexa" width={6} fill={colors.green} left="4%" top="20%" />
-      <SVG icon="hexa" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
-      <SVG icon="hexa" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
-      <SVG icon="hexa" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
+      <SVG icon="zero" width={6} fill={colors.green} left="4%" top="20%" />
+      <SVG icon="one" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
+      <SVG icon="zero" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
+      <SVG icon="one" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
     </Divider>
   </>
 )
