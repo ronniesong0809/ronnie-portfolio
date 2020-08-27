@@ -84,9 +84,56 @@ const Index = () => (
       </Hero>
 
       <Projects offset={1}>
-        <Title>Projects</Title>
-        
+        <Title>Projects</Title>        
         <ProjectsWrapper>
+          <ProjectCard 
+            title="Digit Classifier App" 
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)" 
+            link="https://ronniesong0809.github.io/Digit-Classifier-App/"
+          >
+            This is a simple Android Digit Classifier that allows its users to drawing a digit, then recognize it using the TFLite File.
+          </ProjectCard>
+
+          <ProjectCard 
+            title="Phone Bill App"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)" 
+            link="https://ronniesong0809.github.io/Phonebill-App/"
+          >
+            This is a simple Android Phone Bill that allows its users to creating a phone bill, entering calls, pretty printing a phone bill and its calls, searching for calls, etc.
+          </ProjectCard>
+
+          <ProjectCard 
+            title="recipe dashboard" 
+            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)" 
+            link="https://ronniesong0809.github.io/recipe-dashboard/"
+          >
+            This is a simple dashboard that allows its users to search an recipe. Built by React, Edamam API, Nutritionix API, Yelp API and hosted on Heroku
+          </ProjectCard>
+          
+          <ProjectCard 
+            title="Scanner webapp" 
+            bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)" 
+            link="https://github.com/ronniesong0809/scanner-webapp"
+          >
+            This is a simple web Document scanner that allows its users to align an image. Built by Python, Flask, gunicorn, Bootstrap Framework, OpenCV, pdf2image, img2pdf and hosted on Heroku
+          </ProjectCard>
+
+          <ProjectCard 
+            title="plte cli" 
+            bg="linear-gradient(to right, #344ceb 0%, #d334eb 100%)" 
+            link="https://ronniesong0809.github.io/plte-cli/"
+          >
+            This is a Rust based Command-line tool sets that provided scraping PLET (Portland Local Tech Events) data from Calagator, saving it as cvs file, import csv it to update MongoDB collection, display documents, and more.
+          </ProjectCard>
+          
+          <ProjectCard 
+            title="battlecode20 RADS" 
+            bg="linear-gradient(to right, #349ceb 0%, #34eb89 100%)" 
+            link="https://ronniesong0809.github.io/battlecode20-RADS"
+          >
+            RADS is an AI player for Battlecode 2020 real-time strategy game. Implemented in java
+          </ProjectCard>
+          
           <ProjectCard 
             title="FTP Client" 
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)" 
@@ -121,11 +168,11 @@ const Index = () => (
           </ProjectCard>
           
           <ProjectCard 
-            title="Firebase Chat" 
+            title="ChocAn" 
             bg="linear-gradient(to right, #344ceb 0%, #d334eb 100%)" 
-            link="https://ronniesong0809.github.io/firebase-chat/"
+            link="https://github.com/ronniesong0809/ChocAn"
           >
-            A chat client built by firebase, GCP, and use Google+ as login authentication
+            A health care system. Built by .Net, C#, and MySQL
           </ProjectCard>
           
           <ProjectCard 
@@ -135,22 +182,6 @@ const Index = () => (
           >
             A web-based recipe built by Python3, Flask, Google APIs and Yelp API
           </ProjectCard>
-          
-          <ProjectCard 
-            title="ChocAn" 
-            bg="linear-gradient( 91.7deg, #171213 16.8%, #b35670 103.6% )" 
-            link="https://github.com/ronniesong0809/ChocAn"
-          >
-            A health care system. Built by .Net, C#, and MySQL
-          </ProjectCard>
-          
-          <ProjectCard 
-            title="Npm Demo: Is-Even" 
-            bg="linear-gradient(to right, #acc906 0%, #e86499 100%)" 
-            link="https://ronniesong0809.github.io/npm_demo_is_even"
-          >
-            A npm package demo. Built by Nodejs, mocha, Travis-CI, and Coveralls
-          </ProjectCard>
         </ProjectsWrapper>
 
         <Coursework>
@@ -159,14 +190,16 @@ const Index = () => (
             bg="linear-gradient(to right, #103d12 0%, #102d3d 100%)" 
             link="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view"
           >
-            <b>SDE</b> <br/>
-            Software Engineering, Software Implementation and Test, Unit Testing, Agile Development, Advanced Java Development, Open Source Development <br/><br/>
-            
-            <b>WDE</b> <br/>
-            Internet and Cloud System, Full Stack Development, Front-end Web Tech, Web and Cloud Security, Web development-Lynda.com<br/><br/>
-            
-            <b>Other</b> <br/>
-            Computer Vision, Machine Learning, Artificial Intelligence, Malware Reverse Engineering, Blockchain Security, Algorithms-MIT
+            <div>
+              <b>SDE</b> <br/>
+              Software Engineering, Software Implementation and Test, Unit Testing, Agile Development, Advanced Java Development, Open Source Development <br/><br/>
+              
+              <b>WDE</b> <br/>
+              Internet and Cloud System, Full Stack Development, Front-end Web Tech, Web and Cloud Security, Web development-Lynda.com<br/><br/>
+              
+              <b>Other</b> <br/>
+              Computer Vision, Machine Learning, Artificial Intelligence, Malware Reverse Engineering, Blockchain Security, Algorithms-MIT
+            </div>
           </ProjectCard>
         </Coursework>
       </Projects>
@@ -182,8 +215,7 @@ const Index = () => (
         </AboutHero>
         
         <AboutDesc>
-          Ronnie began programming in C during high school and has since expanded to C++, Java, Python, JavaScript, C#
-          and Go.
+          Ronnie began programming in C during high school and has since expanded to C++, Java, Python, JavaScript, Java and Go.
         </AboutDesc>
       </About>
 
@@ -195,7 +227,7 @@ const Index = () => (
             <a href="mailto:ronniesong0809@gmail.com">email</a>, or find me on:{' '}
             <a href="https://github.com/ronniesong0809">Github</a> |{' '}
             <a href="https://www.linkedin.com">LinkedIn</a> |{' '}
-            <a href="https://www.instagram.com/ronnie_song89/">Instagram</a>
+            <a href="https://www.instagram.com/ronnie_song89/">Instagram</a> <br/>
             Download my <a href="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view">Résumé</a>
           </ContactText>
         </Inner>
