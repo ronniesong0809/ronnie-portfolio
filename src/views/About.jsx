@@ -9,7 +9,12 @@ import SVG from '../components/SVG'
 
 const About = ({ children, offset }) => (
   <>
-    <Divider bg="#23262b" clipPath="polygon(0 37%, 58% 18%, 56% 0, 100% 38%, 66% 100%, 64% 78%, 0 100%)" speed={0.2} offset={offset} />
+    <Divider
+      bg="#23262b"
+      clipPath="polygon(0 37%, 58% 18%, 56% 0, 100% 38%, 66% 100%, 64% 78%, 0 100%)"
+      speed={0.2}
+      offset={offset}
+    />
     <Divider speed={0.1} offset={offset}>
       <UpDown>
         <SVG icon="one" hiddenMobile width={6} fill={colors.green} left="50%" top="75%" />

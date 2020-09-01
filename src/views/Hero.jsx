@@ -41,7 +41,6 @@ const Hero = ({ children, offset }) => (
       <SVG icon="one" width={6} fill={colors['grey-darkest']} left="10%" top="10%" />
       <SVG icon="one" hiddenMobile width={24} fill={colors['grey-darker']} left="40%" top="80%" />
       <SVG icon="one" width={12} fill={colors['grey-darkest']} left="50%" top="60%" />
-      
     </Divider>
     <Content speed={0.4} offset={offset}>
       <Wrapper>{children}</Wrapper>

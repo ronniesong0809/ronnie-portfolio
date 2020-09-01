@@ -19,13 +19,17 @@ const Wrapper = styled.svg`
 const icons = {
   one: {
     shape: (
-      <text x="0" y="15" className="small">1</text>
+      <text x="0" y="15" className="small">
+        1
+      </text>
     ),
     viewBox: '0 0 15 20',
   },
   zero: {
     shape: (
-      <text x="0" y="15" className="small">0</text>
+      <text x="0" y="15" className="small">
+        0
+      </text>
     ),
     viewBox: '0 0 15 20',
   },

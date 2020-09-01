@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import tw from 'tailwind.macro'
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faFileCode} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faFileCode } from '@fortawesome/free-solid-svg-icons'
 
 const Wrapper = styled.a`
   width: 100%;
@@ -27,9 +27,14 @@ const Title = styled.div`
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
 
-const ProjectCard = ({ title, link, children, bg }) => (
+const ProjectCard = ({ title, link, children, bg, noIcon }) => (
   <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg={bg}>
-    <Text>{children} <FontAwesomeIcon icon={faGithub}/> <FontAwesomeIcon icon={faFileCode}/></Text>
+    {!noIcon && (
+      <Text>
+        {children} <FontAwesomeIcon icon={faGithub} /> <FontAwesomeIcon icon={faFileCode} />
+      </Text>
+    )}
+    {noIcon && <Text>{children}</Text>}
     <Title>{title}</Title>
   </Wrapper>
 )
@@ -41,4 +46,5 @@ ProjectCard.propTypes = {
   link: PropTypes.string.isRequired,
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   bg: PropTypes.string.isRequired,
+  noIcon: PropTypes.bool.isRequired,
 }

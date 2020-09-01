@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { rotateAnimation } from '../styles/animations'
 import triangle from '../images/triangle.svg'
-import zero from '../components/SVG'
 
 export const Title = styled.h1`
   ${tw`text-4xl lg:text-4xl text-white mb-8 tracking-wide relative inline-block`};

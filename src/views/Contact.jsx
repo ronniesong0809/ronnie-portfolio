@@ -42,15 +42,17 @@ const Contact = ({ children, offset }) => (
       <UpDown>
         <SVG icon="zero" hiddenMobile width={8} fill={colors['grey-darkest']} left="70%" top="20%" />
         <SVG icon="one" width={8} stroke={colors['grey-darkest']} left="25%" top="5%" />
+        <SVG icon="one" width={64} fill={colors['grey-darkest']} left="35%" top="55%" />
       </UpDown>
       <UpDownWide>
+        <SVG icon="zero" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
         <SVG icon="zero" width={12} stroke={colors.green} left="95%" top="50%" />
         <SVG icon="one" width={6} fill={colors.green} left="85%" top="15%" />
-        <SVG icon="zero" hiddenMobile width={8} fill={colors['grey-darkest']} left="45%" top="10%" />
       </UpDownWide>
       <SVG icon="zero" width={6} fill={colors.green} left="4%" top="20%" />
-      <SVG icon="one" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
       <SVG icon="zero" width={12} fill={colors['grey-darkest']} left="20%" top="30%" />
+      <SVG icon="zero" width={48} fill={colors.green} left="2%" top="40%" />
+      <SVG icon="one" width={12} fill={colors['grey-darkest']} left="70%" top="60%" />
       <SVG icon="one" width={8} stroke={colors['grey-darkest']} left="80%" top="70%" />
     </Divider>
   </>

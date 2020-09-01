@@ -12,5 +12,5 @@ export const Divider = styled(ParallaxLayer)`
 `
 
 export const DividerMiddle = styled(Divider)`
-clip-path: polygon(65% 0, 55% 27%, 100% 40%, 100% 100%, 40% 74%, 33% 100%, 0 29%);
+  clip-path: polygon(65% 0, 55% 27%, 100% 40%, 100% 100%, 40% 74%, 33% 100%, 0 29%);
 `
