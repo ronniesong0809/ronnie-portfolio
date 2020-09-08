@@ -7,7 +7,7 @@ module.exports = {
   siteTitleAlt: 'Ronsong', // Alternative Site title for SEO
   siteTitleShort: 'Ronsong', // short_name for manifest
   siteHeadline: 'Ronnie`s Portfolio', // Headline for schema.org JSONLD
-  siteUrl: 'https://ronniesong.tk', // Domain of your site. No trailing slash!
+  siteUrl: 'https://ronsong.ml', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logo.png', // Used for SEO and manifest
   siteDescription: 'Ronnie`s Portfolio',
