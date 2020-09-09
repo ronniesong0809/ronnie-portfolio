@@ -110,6 +110,7 @@ const SEO = () => {
       <meta name="google-site-verification" content="B1xpjpbogNkUd9blpjuQRrwUeSTQsxT1ik37p5vP2g4" />
       <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>
       <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+      <script src="//code.tidio.co/kctorgb78hdt5i0igrphghn7zbk5uk6h.js" async />
     </Helmet>
   )
 }
