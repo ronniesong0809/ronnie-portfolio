@@ -249,7 +249,7 @@ const Index = () => (
             <br />
             Download my{' '}
             <a
-              href="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view"
+              href="Resume/"
               target="_blank"
               rel="noopener noreferrer"
             >
