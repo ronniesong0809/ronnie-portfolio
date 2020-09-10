@@ -1,6 +1,6 @@
 import React from 'react'
-import SEO from '../components/SEO'
 import { createGlobalStyle } from 'styled-components'
+import SEO from '../components/SEO'
 
 const IframeStyle = createGlobalStyle`
 iframe {
@@ -17,7 +17,11 @@ const Resume = () => (
   <>
     <SEO />
     <IframeStyle />
-    <iframe src="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/preview?usp=embed_googleplus" allowfullscreen />
+    <iframe
+      title="Ronnie's Resume"
+      src="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/preview?usp=embed_googleplus"
+      allowFullScreen
+    />
   </>
 )
 

@@ -248,11 +248,7 @@ const Index = () => (
             <br />
             <br />
             Download my{' '}
-            <a
-              href="Resume/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="Resume/" target="_blank" rel="noopener noreferrer">
               Résumé
             </a>
           </ContactText>
