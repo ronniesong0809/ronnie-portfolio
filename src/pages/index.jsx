@@ -3,21 +3,21 @@ import styled from 'styled-components'
 import tw from 'tailwind.macro'
 import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
-// Components
 import Layout from '../components/Layout'
 import ProjectCard from '../components/ProjectCard'
 
-// Elements
 import Inner from '../elements/Inner'
 import { Title, BigTitle, Subtitle } from '../elements/Titles'
+import { rotateAnimationOnce } from '../styles/animations'
 
-// Views
 import Hero from '../views/Hero'
 import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
-
 import avatar from '../images/avatar.jpg'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -52,7 +52,10 @@ const AboutHero = styled.div`
 `
 
 const Avatar = styled.img`
-  ${tw`rounded-full w-32 xl:w-48 shadow-lg h-auto`};
+  ${tw`rounded-full w-32 xl:w-48 h-auto shadow-lg`};
+  &:hover {
+    ${rotateAnimationOnce('0.8s')};
+  }
 `
 
 const AboutSub = styled.span`
@@ -79,7 +82,10 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Ronnie Song
         </BigTitle>
-        <Subtitle>I'm a CS graduate student who make good stuff.</Subtitle>
+        <Subtitle>
+        I'm a CS graduate student who build good stuff in the digital world. <br />
+          <br />* I'm currently looking for a Software/Full-Stack Engineer position *
+        </Subtitle>
       </Hero>
 
       <Projects offset={1}>
@@ -211,13 +217,13 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Ronnie Song" />
           <AboutSub>
-            <p>{':(){:|:&};:'}</p>
+            <p><FontAwesomeIcon icon={faMapMarkerAlt} /> West Coast, US</p>
           </AboutSub>
         </AboutHero>
 
         <AboutDesc>
-          Ronnie began programming in C during high school and has since expanded to C++, Java, Python, JavaScript, Java
-          and Go.
+          Ronnie began programming in C during high school and has since expanded to C++, Java, Python, JavaScript, and
+          Java.
         </AboutDesc>
       </About>
 

@@ -25,6 +25,6 @@ export const BigTitle = styled.h1`
 `
 
 export const Subtitle = styled.p`
-  ${tw`text-2xl lg:text-4xl text-white mt-8 xxl:w-3/4`};
+  ${tw`text-2xl lg:text-4xl text-white mt-8 w-full`};
   text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
 `
