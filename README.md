@@ -6,6 +6,9 @@ A Playful & Colorful One-Page website with Parallax effect portfolio starter for
 
 Live demo: [here](https://ronsong.netlify.app/)
 
+## API Status
+API status is available at [uptimerobot](https://status.ronsong.me/).
+
 ## Tech Stack and Prerequisites
  * [Node.js](https://nodejs.org/en/)
  * [Gatsby CLI](https://www.gatsbyjs.org/docs/)

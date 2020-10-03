@@ -104,7 +104,7 @@ const Index = () => (
           <ProjectCard
             title="Freeway Analysis Dashboard"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            link="https://portland-freeway.herokuapp.com/"
+            link="http://portland-freeway.ronsong.me/"
             icons
           >
             A dashboard system that determine detectors are malfunction by analysis of the data from the freeway dataset
@@ -113,7 +113,7 @@ const Index = () => (
           <ProjectCard
             title="recipe dashboard"
             bg="linear-gradient(to right, #009245 0%, #ECB111 100%)"
-            link="https://recipedashboard.herokuapp.com/"
+            link="https://recipe-dashboard.ronsong.me/"
             icons
           >
             A dashboard that allows its users to search an recipe. Built by React, Edamam API, Nutritionix API, Yelp API
@@ -171,7 +171,7 @@ const Index = () => (
           <ProjectCard
             title="Happy Chat"
             bg="linear-gradient(to right, #009245 0%, #ECB111 100%)"
-            link="https://agile-tor-53744.herokuapp.com/"
+            link="https://happychatwebapp.herokuapp.com/"
             icons
           >
             A chat client group project built by Nodejs, socket.io, and OpenCV as login authentication
@@ -180,7 +180,7 @@ const Index = () => (
           <ProjectCard
             title="My Recipe"
             bg="linear-gradient(to right, #D585FF 0%, #006FEE 100%)"
-            link="https://ronniesong0809.github.io/My-Recipe/"
+            link="http://recipes.ronsong.me/"
             icons
           >
             A web-based recipe built by Python, SQLite, Flask, Google APIs and Yelp API
@@ -191,21 +191,18 @@ const Index = () => (
           <ProjectCard
             title="Relevant Coursework"
             bg="linear-gradient(to right, #103d12 0%, #102d3d 100%)"
-            link="https://drive.google.com/file/d/1lZZPXglC0sSRVt5HGka_F6IPWwnN-6PW/view"
+            link="Resume/"
             icons={false}
           >
             <div>
-              <b>SDE</b> <br />
-              Software Engineering, Software Implementation and Test, Unit Testing, Agile Development, Advanced Java
-              Development, Open Source Development <br />
-              <br />
-              <b>SRE</b> <br />
-              Internet and Cloud System, Full Stack Development, Front-end Web Tech, Web and Cloud Security
-              <br />
-              <br />
-              <b>Other</b> <br />
-              Computer Vision, Machine Learning, Artificial Intelligence, Malware Reverse Engineering, Blockchain
-              Security
+              <b>Software Engineer</b> <br />
+              Software Engineering, Software Implementation and Test, Unit Testing, Agile Development, Advanced Java Development, Open Source Development, and VR Development <br /><br />
+
+              <b>Full Stack</b> <br />
+              Internet and Cloud System, Full Stack Development, Front-end Web Tech, Web, Cloud Security, and Site Reliability Engineering <br /><br />
+
+              <b>Others</b> <br />
+              Computer Vision, Machine Learning, Artificial Intelligence, Malware Reverse Engineering, Blockchain Security
             </div>
           </ProjectCard>
         </Coursework>
